@@ -1,0 +1,111 @@
+body { width: 90%;  margin: auto;
+      background-color: rgb(0, 0, 0); 
+      font-size: 150%;
+      color: white;
+      font-family: verdana;
+      background-image: url("images/background5.jpg");
+     background-repeat: no-repeat, repeat;
+     background-color: #000000;
+     background-size:cover;
+     }
+
+.line-1{
+     position: relative;
+     left: 65px;
+     top: 80px; 
+     width: 19em;
+     margin: 0 auto;
+     border-right: 2px solid rgba(255,255,255,.75);
+     font-size: 180%;
+     text-align: left;
+     white-space: nowrap;
+     overflow: hidden;
+     transform: translateY(-50%);    
+}
+      
+/* Animation */
+.anim-typewriter{
+     animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+     from{width: 0;}
+     to{width: 19em;}
+}
+@keyframes blinkTextCursor{
+     from{border-right-color: rgba(255,255,255,.75);}
+     to{border-right-color: transparent;}
+}
+
+div {
+     width: 850px;
+     word-wrap: break-word;
+}
+h1.big_text {
+     position: relative;
+     left: 80px;
+     top: 80px;
+}
+div.small_text {
+     position: relative;
+     left: 80px;
+     top: 80px;
+}
+nav { position: relative; top: -2em; font-size: 75%;}
+nav p#utente { text-align: right;  }
+nav p#other { text-align:center;  }
+nav a {  display: inline-block; 
+         margin-right: 20px;
+       }
+nav img { vertical-align: middle; }
+nav span#nbici { display: inline;  }
+	  
+article {
+     background-color: white;
+}
+
+a.rosa { background-color: pink; }
+
+table, td, th { border: 2px solid green; padding: 5px; }
+
+p#messaggio { font-size: 120%; }
+p#errore { color: red; }
+p#download { font-size: 120%; }
+p#download img { vertical-align: middle;}
+
+footer { margin-top: 50px; 
+         border-top: 2px solid rgb(255, 255, 255); 
+         margin-bottom: 50px;}
+
+.bg {
+          /* The image used */
+          background-image: url("images/background1.jpg");
+        
+          /* Full height */
+          height: 100%;
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+
+.btn {
+     border: none;
+     color: rgb(0, 182, 214);
+     background-color: white;
+     padding: 14px 28px;
+     font-size: 16px;
+     cursor: pointer;
+     display: inline-block;
+     border-radius: 4px;
+     text-decoration: none;
+     font-weight: bold;
+   }
+   
+.btn:hover {background: rgba(238, 238, 238, 0.76);}
+
+.logout {background-color: red; color:white;}
+.forgotpassword {color: rgb(0, 226, 0);}
+.username:hover {background: white;}
+
